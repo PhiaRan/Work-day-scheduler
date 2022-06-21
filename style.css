@@ -1,5 +1,5 @@
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     line-height: 1;
   }
@@ -15,7 +15,7 @@ body {
   
   .jumbotron {
     text-align: center;
-    background-color: transparent;
+    background-color: rgba(163, 163, 229, 0.237);
     color: black;
     border-radius: 0;
     border-bottom: 4px solid black;
@@ -28,7 +28,14 @@ body {
   .time-block {
     text-align: left;
     border-radius: 15px;
-    
+   
+  }
+
+  #currentDay{
+font-weight: bold;
+margin-top: 30px;
+margin-bottom: 2%;
+
   }
   
   .row {
@@ -55,7 +62,7 @@ body {
   
   .future {
     background-color: #77dd77;
-    color: white;
+    color: rgb(21, 21, 21);
   }
   
   .saveBtn {
